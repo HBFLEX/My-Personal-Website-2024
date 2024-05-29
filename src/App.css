@@ -1,0 +1,149 @@
+html,body{
+	font-family: Helvetica;
+	box-sizing: border-box;
+}
+
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: #222;
+}
+
+.container{
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.profile--img{
+	width: 300px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.profile--section{
+	color: white;
+	text-align: center;
+}
+
+.profile--section > h1{
+	font-size: 28px;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.profile--section > p{
+	margin-top: 0;
+}
+
+.social--links{
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.social--link{
+	margin: 10px;
+}
+
+.social--link{
+	text-decoration: none;
+}
+
+#email--link{
+	background-color: whitesmoke;
+	padding: 10px 40px;
+	color: black;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#email--link:hover{
+	background-color: #555;
+	color: white;
+}
+
+#linkedin--link{
+	background-color: skyblue;
+	padding: 10px 30px;
+	color: black;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+#linkedin--link:hover{
+	background-color: mediumblue;
+	color: white;
+}
+
+.about--section{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.about--section > h1{
+	color: blueviolet;
+}
+
+.about--section > p{
+	color: whitesmoke;
+}
+
+.about--section > ul > li{
+	color: whitesmoke;
+}
+
+.about--section > ul > li::marker{
+	font-size: 1.5rem;
+	color: burlywood;
+	line-height: 2.7rem;
+}
+
+.fa{
+	padding-right: 5px;
+	font-size: 20px;
+}
+
+.other--social--links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.other--social--links > a{
+	text-decoration: none;
+}
+
+.other--social--links .fa{
+	font-size: 25px;
+}
+
+.other--social--links .fa:hover{
+	color: slategray;
+	cursor: pointer;
+}
+
+.fa-twitter{
+	color: lightskyblue;
+}
+
+.fa-reddit{
+	color: darkorange;
+}
+
+
+footer{
+	position: fixed;
+	padding: 20px 10px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
